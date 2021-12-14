@@ -1,0 +1,70 @@
+<!-- 
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./Style.css">
+    </head>
+    <body>
+
+    <!--Each letter of the title is separated with a span so we can give it a different color with css-->
+
+      <div class="title">
+      <h1>
+      <span class="sp1">T</span>
+      <span class="sp2">E</span>
+      <span class="sp3">T</span>
+      <span class="sp4">R</span>
+      <span class="sp5">I</span>
+      <span class="sp6">S</span>
+      </h1>
+      </div>
+
+      <div class="grid1">
+      <div>
+       <!--Creates the canva we will work on-->
+      <div class="canvasSpace"><canvas id = "game-canvas" width="400" height="600"></canvas></div>
+      
+      
+      <h2 id = "scoreboard">Score: </h2>
+        
+        <!-- the scrip tag will help us to link the javascript files we create to our html index -->
+        <script src="./piece.js"></script>
+        <script src="./gamemodel.js"></script>
+        <script src="./tetris.js"></script>
+     
+      </div>
+
+      <div class="inst">
+      <p><span class="instTitle">Instructions</span>  <br>  <br> 
+      Use the arrows ← → or A-D keys to move the different pieces (tetrominoes) to left and right and complete lines, each line you complete will disappear and give you 10 points.<br> 
+      If you let the board fill up with the tetrominoes, you'll lose! </p> 
+    </div>
+      </div>
+    </body>
+
+
+    <footer>
+    <div class="dev">
+
+    <!-- Little space for our brand <3 -->
+
+    <p class="devT">Developed By</p>         
+    <img class="developers1" src="img/Lizzie's logo white.png">
+    <img class="developers2" src="img/Matthew's logo.png">
+    <div>
+    </footer>
+
+
+</html>
+
+
+
+
+
